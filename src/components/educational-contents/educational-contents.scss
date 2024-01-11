@@ -1,0 +1,32 @@
+.educational-messages {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.educational-messages-sources {
+  padding: 20px 0;
+}
+
+.educational-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 16px;
+  z-index: 1;
+  text-align: left;
+  background-color: black;
+  color: #ff6577;
+  button {
+    background-color: #ff6577;
+    color: black;
+    border-radius: 8px;
+    margin: 10px 0px;
+    &:hover {
+      background-color: #ff6577;
+    }
+  }
+  a {
+    color: #ff6577;
+    text-decoration: underline;
+  }
+}

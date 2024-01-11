@@ -1,0 +1,189 @@
+// .modal-dialog {
+//   width: 100%;
+//   max-width: none!important;
+//   border-radius: 0px!important;
+//   text-align: center;
+//   display: flex;
+// }
+
+.modal {
+  padding: 0 !important;
+}
+
+.modal-content {
+  border: none !important;
+  // height: auto !important;
+  @media(max-width: 468px){
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  @media (min-width: 576px) {
+    max-width: 80% !important;
+  }
+}
+
+.modalBodyContainer {
+  background-color: #fe6576 !important;
+  @media(max-width: 468px){
+    padding: 0 5%;
+    height: 100%;
+  }
+  
+}
+
+
+.modalTitle {
+  font-size: 5vw;
+  margin: 0;
+  @media (max-width: 468px) {
+    font-size: 15vw;
+  }
+}
+
+.closeButton {
+  border-width: 0px;
+  font-size: 2.5rem;
+  &:hover {
+    color: black;
+    // background-color: #FE6576;
+    background-color: transparent;
+  }
+  @media (max-width: 468px) {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+.closeModal {
+  font-size: 2.3rem;
+  font-family: "Open sans";
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.containerTeamName {
+  justify-content: center;
+  @media (max-width: 468px) {
+    justify-content: start;
+  }
+}
+
+.teamName {
+  font-family: "Open sans";
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+// .ispirationText-container {
+//   overflow: auto;
+//   max-height: 30vh;
+// }
+
+.ispirationText {
+  font-family: "Open sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  @media (max-width: 468px) {
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 24px;
+  }
+}
+
+.donateContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  @media (max-width: 468px) {
+    margin: 0;
+    justify-content: left;
+  }
+}
+
+.donationText {
+  font-weight: bolder;
+  font-family: "Open sans";
+  width: 17%;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 0 0;
+  @media (max-width: 468px) {
+    width: 100%;
+    text-align: left;
+    margin: 0 5%;
+  }
+}
+
+.supportUsText {
+  font-family: "Open sans";
+  width: 17%;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 0 0;
+  @media (max-width: 468px) {
+    width: 100%;
+    text-align: left;
+    margin: 0 5%;
+  }
+}
+
+.thanksButton {
+  font-family: "Montserrat";
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: 20px;
+  background: black;
+  color: #fe6576;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  &:hover {
+    color: rgb(24, 24, 24);
+    background: linear-gradient(to bottom, #f46172 5%, #e05969 100%);
+  }
+  p {
+    margin: 0;
+  }
+  width: 171px;
+}
+
+.supportUscontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  @media(max-width: 468px){
+    margin: 0 ;
+    justify-content: left;
+  }
+}
+
+.buttonStartModal {
+  font-weight: bold;
+  border-radius: 10px;
+  border-width: 0px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  width: 171px;
+  background: linear-gradient(180deg, #e05969 0%, #f46172 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  &:hover {
+    color: rgb(24, 24, 24);
+    background: linear-gradient(to bottom, #f46172 5%, #e05969 100%);
+  }
+  p {
+    margin: 0;
+  }
+}
