@@ -31,7 +31,7 @@ const CustomModal = (props) => {
         <Row className="justify-content-center mb-1 text-sm-center">
           <Col xs={12} sm={"auto"}>
             <a
-              href="https://www.linkedin.com/in/luca-miniucchi-44a517151"
+              href="www.miniuxdesign.com"
               target="blank"
               className="teamName"
             >
@@ -40,7 +40,7 @@ const CustomModal = (props) => {
           </Col>
           <Col xs={12} sm={"auto"}>
             <a
-              href="https://www.linkedin.com/in/simone-filippo-antonicchio"
+              href="https://github.com/simoneantonicchio"
               target="blank"
               className="teamName"
             >
